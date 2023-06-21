@@ -30,4 +30,5 @@ Run with docker (continuation from Run steps)
 1. add .env file with variables to fill previous step
 1. add Dockerfile
 1. add docker-compose.yml
-1. docker-compose --env-file .env up
+1. docker-compose --env-file .env up (or)
+1. docker-compose up (to automatically load .env.db and .env.web from docker-compose.yml definition)
