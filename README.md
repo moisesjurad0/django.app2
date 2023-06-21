@@ -4,7 +4,15 @@ Django Proyect 2
 
 ## How to begin
 
-can follow this: <https://docs.djangoproject.com/en/4.2/intro/tutorial01/>
+can follow this:
+
+- <https://www.djangoproject.com/>
+  - <https://docs.djangoproject.com/en/4.2/>
+    - <https://docs.djangoproject.com/en/4.2/intro/overview/> <= this
+
+- <https://www.djangoproject.com/>
+  - <https://www.djangoproject.com/start/>
+    - <https://docs.djangoproject.com/en/4.2/intro/tutorial01/> <= or this (i'm using this)
 
 or
 
@@ -26,9 +34,10 @@ verify if works:
 Run with docker (continuation from Run steps)
 
 1. add requirements.txt
-1. add settings.py support for mysql
-1. add .env file with variables to fill previous step
+1. add settings.py support for mysql (include env variables)
 1. add Dockerfile
 1. add docker-compose.yml
-1. docker-compose --env-file .env up (or)
-1. docker-compose up (to automatically load .env.db and .env.web from docker-compose.yml definition)
+1. add .env files with variables to fill mysql support for db service and web service from docker-compose
+1. run `docker-compose --env-file .env up` (or)
+1. run `docker-compose up` (to automatically load .env.db and .env.web from docker-compose.yml definition)
+1. run `python manage.py migrate` (if using docker or compose or remote db server, use SSH to connect and then run the command)
