@@ -22,3 +22,12 @@ Run:
 verify if works:
 
 1. `python manage.py runserver`
+
+Run with docker (continuation from Run steps)
+
+1. add requirements.txt
+1. add settings.py support for mysql
+1. add .env file with variables to fill previous step
+1. add Dockerfile
+1. add docker-compose.yml
+1. docker-compose --env-file .env up
