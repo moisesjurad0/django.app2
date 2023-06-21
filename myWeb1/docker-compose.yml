@@ -2,11 +2,8 @@ version: '3'
 services:
   db:
     image: mysql:latest
-    environment:
-      - MYSQL_ROOT_PASSWORD=your_mysql_root_password
-      - MYSQL_DATABASE=your_mysql_database
-      - MYSQL_USER=your_mysql_user
-      - MYSQL_PASSWORD=your_mysql_user_password
+    env_file:
+      - .env.db
     ports:
       - "3306:3306"
     volumes:
@@ -15,7 +12,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: python manage.py runserver 0.0.0.0:8000
+    # command: bash -c "./wait-for-it.sh db:3306 -- python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    env_file:
+      - .env.web
     volumes:
       - .:/code
     ports:
