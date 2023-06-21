@@ -6,6 +6,8 @@ Django Proyect 2
 
 can follow this:
 
+- <https://docs.djangoproject.com/en/4.2/contents/>
+
 - <https://www.djangoproject.com/>
   - <https://docs.djangoproject.com/en/4.2/>
     - <https://docs.djangoproject.com/en/4.2/intro/overview/> <= this
@@ -41,3 +43,8 @@ Run with docker (continuation from Run steps)
 1. run `docker-compose --env-file .env up` (or)
 1. run `docker-compose up` (to automatically load .env.db and .env.web from docker-compose.yml definition)
 1. run `python manage.py migrate` (if using docker or compose or remote db server, use SSH to connect and then run the command)
+
+create a new app
+
+1. `python manage.py startapp polls`
+    1. will create new app "polls" and folder structure
