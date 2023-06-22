@@ -114,3 +114,7 @@ Move code from modified index method template for view:
 
 1. create polls/templates/polls/index.html
 1. change polls/views.py to send data to the template
+
+use render()
+
+1. use render in index in polls/views.py to shrink
