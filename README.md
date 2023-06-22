@@ -139,3 +139,9 @@ Namespacing URL names
 
 1. add app_name var in polls/urls.py
 1. add the app_name in the link inside polls/templates/polls/index.html
+
+---
+
+<https://docs.djangoproject.com/en/4.2/intro/tutorial04/>
+
+---
