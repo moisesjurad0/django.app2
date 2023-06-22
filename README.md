@@ -128,3 +128,4 @@ Raising a 404 error
 A shortcut: get_object_or_404()
 
 1. update details method in polls/views.py to shink it
+1. update detail template
