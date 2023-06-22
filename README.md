@@ -26,6 +26,7 @@ Run:
     1. `./.venv/Scripts/activate.bat` (in windows - CMD) or
     1. `./.venv/Scripts/Activate.ps1` (in windows - PowerShell)
 1. `pip install django`
+1. `pip install djlint` (for linting)
 1. `python -m django --version`
 1. `django-admin startproject [proyect_name]` (in this case myWeb1)
 1. `cd [proyect_name]` (in this case myWeb1)
@@ -129,3 +130,7 @@ A shortcut: get_object_or_404()
 
 1. update details method in polls/views.py to shink it
 1. update detail template
+
+Removing hardcoded URLs in templates
+
+1. update index.html to get rid of hardcode
