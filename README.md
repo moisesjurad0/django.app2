@@ -124,3 +124,7 @@ Raising a 404 error
 1. update detail method include logic for 404 in polls/views.py
 1. add a template for detail method in polls/views.py
 1. add the template in polls/templates/polls/detail.html
+
+A shortcut: get_object_or_404()
+
+1. update details method in polls/views.py to shink it
