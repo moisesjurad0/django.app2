@@ -156,5 +156,8 @@ Use generic views: Less code is better:
 
 TESTS
 
-1. add tests to pollS/tests.py
+1. add a test to pollS/tests.py
 1. execute `python manage.py test polls`
+1. check the error in django shell
+1. fix the error in poll/models.py
+1. run the test again `python manage.py test polls` (OK)
