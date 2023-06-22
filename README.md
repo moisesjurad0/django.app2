@@ -134,3 +134,8 @@ A shortcut: get_object_or_404()
 Removing hardcoded URLs in templates
 
 1. update index.html to get rid of hardcode
+
+Namespacing URL names
+
+1. add app_name var in polls/urls.py
+1. add the app_name in the link inside polls/templates/polls/index.html
