@@ -144,4 +144,11 @@ Namespacing URL names
 
 <https://docs.djangoproject.com/en/4.2/intro/tutorial04/>
 
+1. write a form for details view 
+
+Use generic views: Less code is better:
+
+1. change and refactor to use generic views
+
+
 ---
