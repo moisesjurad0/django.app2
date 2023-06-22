@@ -161,3 +161,7 @@ TESTS
 1. check the error in django shell
 1. fix the error in poll/models.py
 1. run the test again `python manage.py test polls` (OK)
+
+more tests
+
+1. add tests to pollS/tests.py
