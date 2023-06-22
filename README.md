@@ -82,3 +82,13 @@ Run the migration:
 1. `python manage.py migrate`
 1. play with the django shell `python manage.py shell`
     1. add __str__ to models and add items from the django shell
+
+---
+
+Creating an admin user:
+
+1. python manage.py createsuperuser
+1. Username: admin
+1. Email address: <admin@example.com>
+1. Password: **********
+1. Password (again): *********
