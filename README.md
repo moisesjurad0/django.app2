@@ -16,7 +16,7 @@ can follow this:
   - <https://www.djangoproject.com/start/>
     - <https://docs.djangoproject.com/en/4.2/intro/tutorial01/> <= or this (i'm using this)
 
-or
+---
 
 Run:
 
@@ -33,6 +33,7 @@ verify if works:
 
 1. `python manage.py runserver`
 
+---
 Run with docker (continuation from Run steps)
 
 1. add requirements.txt
@@ -44,6 +45,7 @@ Run with docker (continuation from Run steps)
 1. run `docker-compose up` (to automatically load .env.db and .env.web from docker-compose.yml definition)
 1. run `python manage.py migrate` (if using docker or compose or remote db server, use SSH to connect and then run the command)
 
+---
 creating a new app:
 
 1. `python manage.py startapp polls`
@@ -66,3 +68,17 @@ Create Models
 1. add your models in the file polls/models.py
 1. add polls app to myWeb1/settings.py
 1. run `python manage.py makemigrations polls`
+    1. By running makemigrations, you’re telling Django that you’ve made some changes to your models (in this case, you’ve made new ones) and that you’d like the changes to be stored as a migration.
+
+Can review:
+
+1. polls/migrations/0001_initial.py
+    1. only open the file to check it
+1. python manage.py sqlmigrate polls 0001
+    1. this is for review the sql generated
+
+Run the migration:
+
+1. `python manage.py migrate`
+1. play with the django shell `python manage.py shell`
+    1. add __str__ to models and add items from the django shell
