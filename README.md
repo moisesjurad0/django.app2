@@ -144,11 +144,17 @@ Namespacing URL names
 
 <https://docs.djangoproject.com/en/4.2/intro/tutorial04/>
 
-1. write a form for details view 
+1. write a form for details view
 
 Use generic views: Less code is better:
 
 1. change and refactor to use generic views
 
-
 ---
+
+<https://docs.djangoproject.com/es/4.2/intro/tutorial05/>
+
+TESTS
+
+1. add tests to pollS/tests.py
+1. execute `python manage.py test polls`
