@@ -17,6 +17,7 @@ can follow this:
     - <https://docs.djangoproject.com/en/4.2/intro/tutorial01/> <= or this (i'm using this)
 
 ---
+<https://docs.djangoproject.com/en/4.2/intro/tutorial01/>
 
 Run:
 
@@ -61,9 +62,9 @@ verify if works:
 
 ---
 
-Create Models
-
 <https://docs.djangoproject.com/en/4.2/intro/tutorial02/>
+
+Create Models:
 
 1. add your models in the file polls/models.py
 1. add polls app to myWeb1/settings.py
@@ -99,3 +100,12 @@ Admin App
 1. register models in polls/admin.py¶ (in this case only Question, not Choice, but you could)
 1. refresh admin app in <http://127.0.0.1:8000/admin/>
 1. verify Question and/or Choice appears under the Polls section (just appearing now)
+
+---
+
+<https://docs.djangoproject.com/es/4.2/intro/tutorial03/>
+
+Add more views:
+
+1. add more views to polls/views.py
+1. link those views in polls/polls.urls
