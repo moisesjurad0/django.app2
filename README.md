@@ -109,3 +109,8 @@ Add more views:
 
 1. add more views to polls/views.py
 1. link those views in polls/polls.urls
+
+Move code from modified index method template for view:
+
+1. create polls/templates/polls/index.html
+1. change polls/views.py to send data to the template
