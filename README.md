@@ -44,7 +44,15 @@ Run with docker (continuation from Run steps)
 1. run `docker-compose up` (to automatically load .env.db and .env.web from docker-compose.yml definition)
 1. run `python manage.py migrate` (if using docker or compose or remote db server, use SSH to connect and then run the command)
 
-create a new app
+creating a new app:
 
 1. `python manage.py startapp polls`
     1. will create new app "polls" and folder structure
+1. create new view in views.py in polls
+1. create file urls.py and map that view in polls
+1. map polls.url in urls.py inside myWeb1
+
+verify if works:
+
+1. open in a browser: <http://localhost:8000/polls/>
+1. must see this: "Hello, world. You're at the polls index."
