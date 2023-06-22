@@ -92,3 +92,10 @@ Creating an admin user:
 1. Email address: <admin@example.com>
 1. Password: **********
 1. Password (again): *********
+
+Admin App
+
+1. Login Admin App, go to <http://127.0.0.1:8000/admin/>
+1. register models in polls/admin.py¶ (in this case only Question, not Choice, but you could)
+1. refresh admin app in <http://127.0.0.1:8000/admin/>
+1. verify Question and/or Choice appears under the Polls section (just appearing now)
