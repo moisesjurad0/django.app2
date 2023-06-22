@@ -56,3 +56,13 @@ verify if works:
 
 1. open in a browser: <http://localhost:8000/polls/>
 1. must see this: "Hello, world. You're at the polls index."
+
+---
+
+Create Models
+
+<https://docs.djangoproject.com/en/4.2/intro/tutorial02/>
+
+1. add your models in the file polls/models.py
+1. add polls app to myWeb1/settings.py
+1. run `python manage.py makemigrations polls`
