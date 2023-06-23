@@ -173,3 +173,11 @@ more tests
 TEMPLATES
 
 ---
+
+<https://docs.djangoproject.com/en/4.2/intro/tutorial07/>
+
+admin models
+
+1. 1era version de personalizacion de entidades en el panel de administracion de django (polls/admin.py)
+
+---
