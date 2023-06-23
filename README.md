@@ -165,3 +165,11 @@ TESTS
 more tests
 
 1. add tests to pollS/tests.py
+
+---
+
+<https://docs.djangoproject.com/en/4.2/intro/tutorial06/>
+
+TEMPLATES
+
+---
