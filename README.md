@@ -181,3 +181,8 @@ admin models
 1. 1era version de personalizacion de entidades en el panel de administracion de django (polls/admin.py)
 
 ---
+
+<https://docs.djangoproject.com/en/4.2/intro/tutorial08/>
+
+1. `python -m pip install django-debug-toolbar`
+1. <https://django-debug-toolbar.readthedocs.io/en/latest/installation.html>
