@@ -1,6 +1,6 @@
 # django.proy2
 
-Django Proyect 2
+Django Workshop - 2
 
 ## How to begin
 
@@ -186,3 +186,25 @@ admin models
 
 1. `python -m pip install django-debug-toolbar`
 1. <https://django-debug-toolbar.readthedocs.io/en/latest/installation.html>
+
+---
+
+<https://docs.djangoproject.com/en/4.2/intro/reusable-apps/>
+
+Advanced tutorial: How to write reusable apps
+
+1. create folder django-polls outside the proyect
+1. move polls folders to the newly created folder
+1. add LICENSE, MANIFEST.in, pyproject.toml, README.rst, setup.py, setup.cfg (configure Django version, this time 4.2)
+1. Try building your package with `python setup.py sdist` (run from inside django-polls). This creates a directory called dist and builds your new package, django-polls-0.1.tar.gz.
+1. to install the package: `python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz`
+    1. if get "ERROR: Can not perform a '--user' install. User site-packages are not visible in this virtualenv."
+        1. <https://bobbyhadz.com/blog/python-error-can-not-perform-user-install>
+        1. Open your venv folder.
+        1. Click on the pyvenv.cfg file.
+        1. Set the include-system-site-packages property to true.
+        1. Save the file.
+        1. try again
+        1. rerun
+        1. success
+        1. then back to normal
